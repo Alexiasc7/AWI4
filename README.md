@@ -3,7 +3,7 @@
 
 Un modelo de datos es una representación visual de elementos de datos y las relaciones entre ellos. Es el método fundamental utilizado para aprovechar la abstracción en un sistema de información. Los modelos de datos definen la estructura lógica de los datos, cómo se conectan y cómo se procesan y almacenan los datos en los sistemas de información.
 ## Ejemplo modelo MVC JavaScript
-~~~
+```bash
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
