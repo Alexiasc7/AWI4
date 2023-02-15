@@ -90,7 +90,7 @@ Los ordenadores o terminales modernos se conectan a dispositivos de almacenamien
   localStorage.setItem('user_name', 'Rohit'); //store a key/value
 var retrievedUsername = localStorage.getItem('user_name'); //retrieve the key
 ```
-# Almacenamiento local
+### Almacenamiento local
 ```bash
 // localStorage for objects, arrays or any data type
 var obj = 
@@ -101,7 +101,7 @@ localStorage.setItem("itemname", JSON.stringify(obj)); // Save the obj as string
 var item = JSON.parse(localStorage.getItem("itemname")); 
 // ^^ Parse string then set `item` as the obj
 ```
-# Guardar en el almacenamiento local
+### Guardar en el almacenamiento local
 ```bash
 var cat = localStorage.getItem('myCat');
 ```
