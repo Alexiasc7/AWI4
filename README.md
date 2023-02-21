@@ -132,3 +132,8 @@ Controlador: Enruta comandos a los modelos y vistas.
 Se encarga de... controlar, recibe las órdenes del usuario y se encarga de solicitar los datos al modelo y de comunicárselos a la vista.
 El Controlador como que “conoce la Vista”. Sabe a qué Vista debe dirigir el control, pero no sabe nada sobre esa Vista. Tampoco sabe de qué Vista provino el control anteriormente. El Controlador responde a los eventos. Un evento viene de la UI, llevando algún tipo de información de estado (un ViewModel, tal vez), dirige el control lógico a través de los Modelos (donde ocurre la lógica de negocio), y responde con un Modelo (o un ViewModel, si la forma de los datos específicos de una Vista particular es diferente a los Modelos) y una Vista.
 
+## Logica de negocio
+Hay un concepto que se usa mucho cuando se explica el MVC que es la "lógica de negocio". Es un conjunto de reglas que se siguen en el software para reaccionar ante distintas situaciones. En una aplicación el usuario se comunica con el sistema por medio de una interfaz, pero cuando acciona esa interfaz para realizar acciones con el programa, se ejecutan una serie de procesos que se conocen como la lógica del negocio. Este es un concepto de desarrollo de software en general.
+
+La lógica del negocio, aparte de marcar un comportamiento cuando ocurren cosas dentro de un software, también tiene normas sobre lo que se puede hacer y lo que no se puede hacer. Eso también se conoce como reglas del negocio. Bien, pues en el MVC la lógica del negocio queda del lado de los modelos. Ellos son los que deben saber cómo operar en diversas situaciones y las cosas que pueden permitir que ocurran en el proceso de ejecución de una aplicación.
+
