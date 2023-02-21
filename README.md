@@ -128,3 +128,7 @@ Modelo: Maneja datos y lógica de negocios.
 Vista: Se encarga del diseño y presentación.
 Controlador: Enruta comandos a los modelos y vistas.
 
+# Modelo vista controlador (Controlador).
+Se encarga de... controlar, recibe las órdenes del usuario y se encarga de solicitar los datos al modelo y de comunicárselos a la vista.
+El Controlador como que “conoce la Vista”. Sabe a qué Vista debe dirigir el control, pero no sabe nada sobre esa Vista. Tampoco sabe de qué Vista provino el control anteriormente. El Controlador responde a los eventos. Un evento viene de la UI, llevando algún tipo de información de estado (un ViewModel, tal vez), dirige el control lógico a través de los Modelos (donde ocurre la lógica de negocio), y responde con un Modelo (o un ViewModel, si la forma de los datos específicos de una Vista particular es diferente a los Modelos) y una Vista.
+
